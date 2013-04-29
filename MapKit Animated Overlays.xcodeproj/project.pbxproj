@@ -18,6 +18,10 @@
 		83698C95172EF7E700760672 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83698C94172EF7E700760672 /* Default-568h@2x.png */; };
 		83698C98172EF7E700760672 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83698C96172EF7E700760672 /* MainStoryboard.storyboard */; };
 		83698C9B172EF7E700760672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83698C9A172EF7E700760672 /* ViewController.m */; };
+		83698CA3172EF82600760672 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 83698CA1172EF82600760672 /* LICENSE */; };
+		83698CA4172EF82600760672 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83698CA2172EF82600760672 /* README.md */; };
+		83698CA6172EF8B300760672 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83698CA5172EF8B300760672 /* MapKit.framework */; };
+		83698CA8172EF90100760672 /* annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 83698CA7172EF90100760672 /* annotation.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		83698C97172EF7E700760672 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		83698C99172EF7E700760672 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		83698C9A172EF7E700760672 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83698CA1172EF82600760672 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		83698CA2172EF82600760672 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		83698CA5172EF8B300760672 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83698CA7172EF90100760672 /* annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotation.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83698CA6172EF8B300760672 /* MapKit.framework in Frameworks */,
 				83698C7F172EF7E600760672 /* UIKit.framework in Frameworks */,
 				83698C81172EF7E600760672 /* Foundation.framework in Frameworks */,
 				83698C83172EF7E600760672 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +65,8 @@
 		83698C72172EF7E600760672 = {
 			isa = PBXGroup;
 			children = (
+				83698CA2172EF82600760672 /* README.md */,
+				83698CA1172EF82600760672 /* LICENSE */,
 				83698C84172EF7E600760672 /* MapKit Animated Overlays */,
 				83698C7D172EF7E600760672 /* Frameworks */,
 				83698C7C172EF7E600760672 /* Products */,
@@ -73,6 +84,7 @@
 		83698C7D172EF7E600760672 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83698CA5172EF8B300760672 /* MapKit.framework */,
 				83698C7E172EF7E600760672 /* UIKit.framework */,
 				83698C80172EF7E600760672 /* Foundation.framework */,
 				83698C82172EF7E600760672 /* CoreGraphics.framework */,
@@ -88,6 +100,7 @@
 				83698C96172EF7E700760672 /* MainStoryboard.storyboard */,
 				83698C99172EF7E700760672 /* ViewController.h */,
 				83698C9A172EF7E700760672 /* ViewController.m */,
+				83698CA7172EF90100760672 /* annotation.png */,
 				83698C85172EF7E600760672 /* Supporting Files */,
 			);
 			path = "MapKit Animated Overlays";
@@ -163,6 +176,9 @@
 				83698C93172EF7E700760672 /* Default@2x.png in Resources */,
 				83698C95172EF7E700760672 /* Default-568h@2x.png in Resources */,
 				83698C98172EF7E700760672 /* MainStoryboard.storyboard in Resources */,
+				83698CA3172EF82600760672 /* LICENSE in Resources */,
+				83698CA4172EF82600760672 /* README.md in Resources */,
+				83698CA8172EF90100760672 /* annotation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

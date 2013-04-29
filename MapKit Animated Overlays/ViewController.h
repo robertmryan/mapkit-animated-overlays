@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class MKMapView;
+
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *drawOverlayButton;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
+- (IBAction)didTouchUpInsideDrawButton:(id)sender;
 
 @end
